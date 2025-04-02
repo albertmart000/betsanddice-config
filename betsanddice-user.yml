@@ -1,12 +1,9 @@
-spring:
-  data:
-    mongodb:
-      uri: mongodb://admin_user:XMOJocgKlmRHz2O@localhost:27017/users?authSource=admin
-      uuid-representation: standard
-      
-logging:
-  pattern.console: ${LOGPATTERN_CONSOLE:%green(%d{HH:mm:ss.SSS}) %blue(%-5level) %red([%thread]) %yellow(%logger{15}) - %msg%n}
-
+# spring:
+#   data:
+#     mongodb:
+#       uri: mongodb://admin_user:XMOJocgKlmRHz2O@localhost:27017/users?authSource=admin
+#       uuid-representation: standard
+    
 build:
   version: "1.0"
   
