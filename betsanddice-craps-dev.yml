@@ -6,9 +6,12 @@
 #       #uri para bbdd docker:
 #       #uri: mongodb://admin_betsanddice:XMOJocgKlmRHz2O@mongodb-betsanddice:27017/craps?authSource=admin
 #       uuid-representation: standard
+
+logging:
+  pattern.console: ${LOGPATTERN_CONSOLE:%green(%d{HH:mm:ss.SSS}) %blue(%-5level) %red([%thread]) %yellow(%logger{15}) - %msg%n}
       
 build:
   version: "1.0"
 
 betsanddice-craps:
-  message: "Welcome to Bets-And-Dice Craps development API "
+  message: "Welcome to Bets-And-Dice Craps development API 
